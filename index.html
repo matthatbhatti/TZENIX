@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TZENIX is a premium Web & App Development Agency providing responsive, scalable, and beautifully designed digital solutions.">
+    <meta name="keywords" content="web development, app development, agency, TZENIX, software engineering, mobile apps">
+    <meta property="og:title" content="TZENIX - Premium Web & App Development Services">
+    <meta property="og:description" content="Transform your ideas into powerful, scalable web and mobile applications.">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://unpkg.com 'unsafe-inline'; style-src 'self' https://cdnjs.cloudflare.com https://unpkg.com https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data: https://picsum.photos https://fastly.picsum.photos; connect-src 'self' ws://127.0.0.1:*; frame-src 'self';">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>TZENIX</title>
+    <link rel="icon" type="image/png" href="picture/logo.png">
+    <link rel="preload" href="picture/logo.png" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                        <img src="picture/logo.png" alt="TZENIX Logo" class="loader-logo-img" width="60" height="60" loading="eager">
+                <span class="logo-text-loader">TZENIX</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-text">Crafting Digital Excellence...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home" class="logo-link">
+                        <div class="logo-container">
+                            <img src="picture/logo.png" alt="TZENIX Logo" class="logo-img" width="40" height="40">
+                        </div>
+                        <span class="logo-text">TZENIX</span>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#technologies" class="nav-link">Technologies</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#process" class="nav-link">Process</a></li>
+                        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu"
+                    title="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <div class="hero-label">
+                        <span class="label-dot"></span>
+                        <span>10+ Trusted Clients</span>
+                    </div>
+                    <h1 class="hero-title">We Build <span class="gradient-text">Digital Solutions</span> That Drive
+                        Success</h1>
+                    <p class="hero-description">Transform your ideas into powerful, scalable web and mobile
+                        applications. From concept to deployment, we deliver excellence.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10+">0</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="98%">0</span>
+                            <span class="stat-label">Client Satisfaction %</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5+">0</span>
+                            <span class="stat-label">Team Members</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-large scroll-link">
+                            <span>Get Started</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="btn btn-outline btn-large scroll-link">
+                            <i class="fas fa-play"></i>
+                            <span>View Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="hero-3d">
+                        <div class="device-container">
+                            <div class="device laptop">
+                                <div class="device-screen">
+                                    <div class="screen-content">
+                                        <div class="code-editor">
+                                            <div class="editor-header">
+                                                <div class="editor-dots">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                                <div class="editor-title">app.js</div>
+                                            </div>
+                                            <div class="editor-code">
+                                                <pre><code>const createApp = () => {
+  return {
+    scalable: true,
+    performant: true,
+    innovative: true
+  };
+};</code></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="device mobile">
+                                <div class="device-screen">
+                                    <div class="mobile-app">
+                                        <div class="app-header">
+                                            <div class="app-nav"></div>
+                                        </div>
+                                        <div class="app-content">
+                                            <div class="app-card"></div>
+                                            <div class="app-card"></div>
+                                            <div class="app-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="float-element element-1"></div>
+                            <div class="float-element element-2"></div>
+                            <div class="float-element element-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Our Services</div>
+                <h2 class="section-title">Comprehensive Development Solutions</h2>
+                <p class="section-subtitle">End-to-end development services tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">E-commerce Account Management</h3>
+                    <p class="service-description">Professional management of your online stores across Amazon, Etsy, eBay, and Shopify to maximize sales and efficiency.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Inventory & Order Management</li>
+                        <li><i class="fas fa-check"></i> Store SEO & Optimization</li>
+                        <li><i class="fas fa-check"></i> Performance Analytics</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Mobile App Development</h3>
+                    <p class="service-description">Native and cross-platform mobile applications that deliver
+                        exceptional user experiences.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> iOS & Android Apps</li>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                        <li><i class="fas fa-check"></i> Flutter Development</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Wordpress Development</h3>
+                    <p class="service-description">Custom WordPress solutions ranging from professional business sites to complex dynamic portals.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Theme & Plugin Dev</li>
+                        <li><i class="fas fa-check"></i> Elementor & Divi Experts</li>
+                        <li><i class="fas fa-check"></i> Speed & Security Optimization</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">AI & Machine Learning</h3>
+                    <p class="service-description">Intelligent solutions powered by cutting-edge AI and machine learning
+                        technologies.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
+                        <li><i class="fas fa-check"></i> Natural Language Processing</li>
+                        <li><i class="fas fa-check"></i> Computer Vision</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">User-centered designs that combine stunning aesthetics with seamless functionality for all digital platforms.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                        <li><i class="fas fa-check"></i> Visual Identity Design</li>
+                        <li><i class="fas fa-check"></i> User Experience Research</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <div class="icon-bg">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">Website Modification</h3>
+                    <p class="service-description">Transform and modernize your existing website with expert refactoring and feature additions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> UI Refactoring</li>
+                        <li><i class="fas fa-check"></i> Performance Tuning</li>
+                        <li><i class="fas fa-check"></i> Legacy Code Modernization</li>
+                    </ul>
+                    <button class="service-link service-detail-btn">Learn More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Tech Stack</div>
+                <h2 class="section-title">Cutting-Edge Technologies</h2>
+                <p class="section-subtitle">We leverage the latest tools and frameworks to build robust solutions</p>
+            </div>
+            <div class="tech-slider">
+                <!-- Row 1: Left to Right -->
+                <div class="tech-track track-1">
+                    <div class="tech-set">
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-react"></i></div><span
+                                class="tech-name">React</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-vuejs"></i></div><span
+                                class="tech-name">Vue.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-angular"></i></div><span
+                                class="tech-name">Angular</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-js"></i></div><span
+                                class="tech-name">JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-css3-alt"></i></div><span
+                                class="tech-name">CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-html5"></i></div><span
+                                class="tech-name">HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-node"></i></div><span
+                                class="tech-name">Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-python"></i></div><span
+                                class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-java"></i></div><span class="tech-name">Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-php"></i></div><span class="tech-name">PHP</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-code"></i></div><span class="tech-name">.NET</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-golang"></i></div><span class="tech-name">Go</span>
+                        </div>
+                    </div>
+                    <div class="tech-set">
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-react"></i></div><span
+                                class="tech-name">React</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-vuejs"></i></div><span
+                                class="tech-name">Vue.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-angular"></i></div><span
+                                class="tech-name">Angular</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-js"></i></div><span
+                                class="tech-name">JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-css3-alt"></i></div><span
+                                class="tech-name">CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-html5"></i></div><span
+                                class="tech-name">HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-node"></i></div><span
+                                class="tech-name">Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-python"></i></div><span
+                                class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-java"></i></div><span class="tech-name">Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-php"></i></div><span class="tech-name">PHP</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-code"></i></div><span class="tech-name">.NET</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-golang"></i></div><span class="tech-name">Go</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Right to Left -->
+                <div class="tech-track track-2">
+                    <div class="tech-set">
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-swift"></i></div><span
+                                class="tech-name">Swift</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-android"></i></div><span
+                                class="tech-name">Kotlin</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-mobile"></i></div><span class="tech-name">React
+                                Native</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-mobile-alt"></i></div><span
+                                class="tech-name">Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">MongoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">Redis</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-aws"></i></div><span class="tech-name">AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-microsoft"></i></div><span
+                                class="tech-name">Azure</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-google"></i></div><span class="tech-name">Google
+                                Cloud</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-docker"></i></div><span
+                                class="tech-name">Docker</span>
+                        </div>
+                    </div>
+                    <div class="tech-set">
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-swift"></i></div><span
+                                class="tech-name">Swift</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-android"></i></div><span
+                                class="tech-name">Kotlin</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-mobile"></i></div><span class="tech-name">React
+                                Native</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-mobile-alt"></i></div><span
+                                class="tech-name">Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">MongoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div><span
+                                class="tech-name">Redis</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-aws"></i></div><span class="tech-name">AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-microsoft"></i></div><span
+                                class="tech-name">Azure</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-google"></i></div><span class="tech-name">Google
+                                Cloud</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon"><i class="fab fa-docker"></i></div><span
+                                class="tech-name">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Explore our latest work and success stories</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="enterprise">Enterprise</button>
+                <button class="filter-btn" data-filter="startup">Startups</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web application" data-project-id="6">
+                    <div class="portfolio-image">
+                        <img src="E-commerce.png" alt="E-commerce Platform" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">E-commerce Platform</h3>
+                                <p class="portfolio-category">Web Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-users"></i> 50K+ Users</span>
+                                    <span><i class="fas fa-chart-line"></i> 200% Growth</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">E-commerce Platform</h3>
+                        <p class="portfolio-description">Scalable e-commerce solution with AI-powered recommendations and real-time inventory management.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile startup" data-project-id="7">
+                    <div class="portfolio-image">
+                        <img src="picture/Fit track pro.webp" alt="Fitness Tracking App" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">FitTrack Pro</h3>
+                                <p class="portfolio-category">Mobile Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-download"></i> 100K+ Downloads</span>
+                                    <span><i class="fas fa-star"></i> 4.8 Rating</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">FitTrack Pro</h3>
+                        <p class="portfolio-description">AI-powered fitness tracking app with personalized workout plans and nutrition guidance.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                                          </div>
+                                        </div>
+
+                <div class="portfolio-item" data-category="web enterprise" data-project-id="8">
+                    <div class="portfolio-image">
+                        <img src="picture/SecureBank Portal.webp" alt="Banking Portal" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">SecureBank Portal</h3>
+                                <p class="portfolio-category">Web Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-shield-alt"></i> Bank-Level Security</span>
+                                    <span><i class="fas fa-lock"></i> PCI Compliant</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">SecureBank Portal</h3>
+                        <p class="portfolio-description">Enterprise banking portal with advanced security features and seamless user experience.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">.NET Core</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">Azure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile startup" data-project-id="9">
+                    <div class="portfolio-image">
+                        <img src="picture/QuickEats.png" alt="Food Delivery App" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">QuickEats</h3>
+                                <p class="portfolio-category">Mobile Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-store"></i> 500+ Restaurants</span>
+                                    <span><i class="fas fa-clock"></i> 30min Delivery</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">QuickEats</h3>
+                        <p class="portfolio-description">On-demand food delivery platform with real-time tracking and smart routing.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Google Maps API</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web enterprise" data-project-id="10">
+                    <div class="portfolio-image">
+                        <img src="picture/HealthCare Plus.png" alt="Healthcare System" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">HealthCare Plus</h3>
+                                <p class="portfolio-category">Web Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-hospital"></i> 100+ Hospitals</span>
+                                    <span><i class="fas fa-user-md"></i> 10K+ Doctors</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">HealthCare Plus</h3>
+                        <p class="portfolio-description">Comprehensive healthcare management system with telemedicine capabilities.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Java Spring</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile startup" data-project-id="11">
+                    <div class="portfolio-image">
+                        <img src="picture/EduLearn.webp" alt="Education Platform" loading="lazy" width="600" height="400">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">EduLearn</h3>
+                                <p class="portfolio-category">Mobile Application</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-graduation-cap"></i> 25K+ Students</span>
+                                    <span><i class="fas fa-book"></i> 500+ Courses</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">EduLearn</h3>
+                        <p class="portfolio-description">Interactive learning platform with video streaming and progress tracking.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">WebRTC</span>
+                            <span class="tech-tag">AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Level Projects -->
+                <div class="portfolio-item" data-category="web enterprise" data-project-id="1">
+                    <div class="portfolio-image">
+                        <img src="picture/AI Analytics Dashboard.webp" alt="Analytics Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">AI Analytics Dashboard</h3>
+                                <p class="portfolio-category">Enterprise Solution - Advanced</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-brain"></i> AI-Powered</span>
+                                    <span><i class="fas fa-chart-line"></i> Real-time</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">AI Analytics Dashboard</h3>
+                        <p class="portfolio-description">Cutting-edge analytics platform with machine learning, real-time data visualization, and predictive insights.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Python TensorFlow</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web enterprise startup" data-project-id="2">
+                    <div class="portfolio-image">
+                        <img src="picture/Blockchain Payment System.png" alt="Blockchain Payment">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Blockchain Payment System</h3>
+                                <p class="portfolio-category">FinTech - Advanced</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-link"></i> Decentralized</span>
+                                    <span><i class="fas fa-zap"></i> Ultra-Fast</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Blockchain Payment System</h3>
+                        <p class="portfolio-description">Decentralized payment platform with smart contracts, real-time settlement, and multi-currency support.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Ethereum</span>
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web enterprise" data-project-id="3">
+                    <div class="portfolio-image">
+                        <img src="picture/Smart City IoT Platform.webp" alt="IoT Smart City">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">Smart City IoT Platform</h3>
+                                <p class="portfolio-category">IoT Solution - Advanced</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-city"></i> 500K+ Devices</span>
+                                    <span><i class="fas fa-network-wired"></i> Real-time</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Smart City IoT Platform</h3>
+                        <p class="portfolio-description">Comprehensive IoT ecosystem for urban management with sensor networks, real-time monitoring, and smart automation.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">MQTT</span>
+                            <span class="tech-tag">Docker Kubernetes</span>
+                            <span class="tech-tag">Edge Computing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web enterprise" data-project-id="4">
+                    <div class="portfolio-image">
+                        <img src="picture/ML Recommendation Engine.webp" alt="ML Recommendation">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3 class="portfolio-title">ML Recommendation Engine</h3>
+                                <p class="portfolio-category">AI/ML Platform - Advanced</p>
+                                <div class="portfolio-stats">
+                                    <span><i class="fas fa-robot"></i> Deep Learning</span>
+                                    <span><i class="fas fa-percent"></i> 94% Accuracy</span>
+                                </div>
+                                <button class="btn btn-outline case-study-btn">View Case Study</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">ML Recommendation Engine</h3>
+                        <p class="portfolio-description">Personalized recommendation system using collaborative filtering and deep neural networks serving 10M+ users daily.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Spark MLlib</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                            <span class="tech-tag">AWS SageMaker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta" data-aos="fade-up">
+                <p>Have a project in mind? Let's discuss how we can help.</p>
+                <a href="#contact" class="btn btn-primary btn-large scroll-link">
+                    Start Your Project
+                </a>
+            </div>
+    </section>
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Our Process</div>
+                <h2 class="section-title">How We Work</h2>
+                <p class="section-subtitle">A transparent and collaborative approach to project development</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-item" data-aos="fade-right">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Discovery & Planning</h3>
+                        <p class="process-description">We start by understanding your business goals, target audience,
+                            and technical requirements to create a comprehensive project roadmap.</p>
+                        <ul class="process-deliverables">
+                            <li>Requirements Analysis</li>
+                            <li>Technical Architecture</li>
+                            <li>Project Timeline</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-item" data-aos="fade-left">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Design & Prototyping</h3>
+                        <p class="process-description">Our design team creates wireframes, mockups, and interactive
+                            prototypes to visualize the final product before development.</p>
+                        <ul class="process-deliverables">
+                            <li>UI/UX Design</li>
+                            <li>Interactive Prototypes</li>
+                            <li>Design System</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-item" data-aos="fade-right">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Development & Testing</h3>
+                        <p class="process-description">Agile development with continuous integration, automated testing,
+                            and regular sprint reviews to ensure quality delivery.</p>
+                        <ul class="process-deliverables">
+                            <li>Clean Code</li>
+                            <li>Unit & Integration Tests</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-item" data-aos="fade-left">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Deployment & Support</h3>
+                        <p class="process-description">Seamless deployment to production with ongoing monitoring,
+                            maintenance, and support to ensure optimal performance.</p>
+                        <ul class="process-deliverables">
+                            <li>Production Deployment</li>
+                            <li>Monitoring & Analytics</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Client Testimonials</div>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real feedback from real partners</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-item active" data-aos="fade-up">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"TZENIX transformed our business with their exceptional web
+                                development services. Their team's technical expertise and attention to detail resulted
+                                in a platform that exceeded our expectations."</p>
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/seed/author1/100/100.jpg" alt="Sarah Johnson"
+                                    class="author-image">
+                                <div class="author-info">
+                                    <h4 class="author-name">Sarah Johnson</h4>
+                                    <p class="author-position">CEO, TechStart Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item" data-aos="fade-up">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The mobile app developed by TZENIX has been a game-changer for
+                                our business. User engagement has increased by 300%, and the app consistently receives
+                                5-star reviews."</p>
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/seed/author2/100/100.jpg" alt="Michael Chen"
+                                    class="author-image">
+                                <div class="author-info">
+                                    <h4 class="author-name">Michael Chen</h4>
+                                    <p class="author-position">CTO, FoodieDelight</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item" data-aos="fade-up">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Working with TZENIX was an absolute pleasure. They delivered
+                                our complex enterprise solution on time and within budget. Their post-launch support is
+                                outstanding."</p>
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/seed/author3/100/100.jpg" alt="Emily Rodriguez"
+                                    class="author-image">
+                                <div class="author-info">
+                                    <h4 class="author-name">Emily Rodriguez</h4>
+                                    <p class="author-position">VP of Engineering, FinanceFlow</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-control prev" aria-label="Previous testimonial"
+                        title="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonial-control next" aria-label="Next testimonial" title="Next testimonial"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="testimonial-indicators">
+                    <button class="indicator active" data-index="0" aria-label="Show testimonial 1"
+                        title="Show testimonial 1"></button>
+                    <button class="indicator" data-index="1" aria-label="Show testimonial 2"
+                        title="Show testimonial 2"></button>
+                    <button class="indicator" data-index="2" aria-label="Show testimonial 3"
+                        title="Show testimonial 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-label">Get In Touch</div>
+                <h2 class="section-title">Let's Build Something Amazing Together</h2>
+                <p class="section-subtitle">Ready to start your next project? We're here to help.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3 class="contact-title">Start a Conversation</h3>
+                        <p class="contact-description">Whether you have a project in mind or just want to explore
+                            possibilities, we're excited to hear from you.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                <i class="fab fa-google gmail-icon" title="Gmail: tzenix86@gmail.com"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Email Us</h4>
+                                    <a href="mailto:tzenix86@gmail.com">tzenix86@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Call Us</h4>
+                                    <a href="tel:+923232186947">+923232186947</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h4>Visit Us</h4>
+                                    <p>Karachi, Pakistan</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type</label>
+                            <select id="projectType" name="projectType" required>
+                                <option value="">Select a service</option>
+                                <option value="ecommerce">E-commerce Account Management</option>
+                                <option value="mobile">Mobile App Development</option>
+                                <option value="wordpress">Wordpress Development</option>
+                                <option value="uiux">UI/UX Design</option>
+                                <option value="ai">AI & Machine Learning</option>
+                                <option value="modification">Website Modification</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget" required>
+                                <option value="">Select budget range</option>
+                                <option value="10k-25k">$0 - $500</option>
+                                <option value="25k-50k">$500 - $1000</option>
+                                <option value="50k-100k">$1000 - $5000</option>
+                                <option value="100k+">$5000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for tech insights and updates</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-full">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Modal -->
+    <!-- Service Detail Modal -->
+    <div id="serviceDetailModal" class="modal">
+        <div class="modal-content">
+            <button class="close-service-modal" aria-label="Close dialog">
+                &times;
+            </button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="serviceDetailImage" src="" alt="Service Image">
+                </div>
+                <div class="modal-details">
+                    <h2 id="serviceDetailTitle"></h2>
+                    <p class="modal-category" id="serviceDetailCategory"></p>
+                    <p class="modal-description" id="serviceDetailDescription"></p>
+                    <h3>Key Features</h3>
+                    <ul id="serviceDetailFeatures" class="modal-features"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Case Study Modal -->
+    <div id="caseStudyModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close dialog">
+                &times;
+            </button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="caseStudyImage" src="" alt="Project Image">
+                </div>
+                <div class="modal-details">
+                    <h2 id="caseStudyTitle"></h2>
+                    <p class="modal-category" id="caseStudyCategory"></p>
+
+                    <div class="modal-stats" id="caseStudyStats"></div>
+
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Project Overview</h3>
+                    <p class="modal-description" id="caseStudyDescription"></p>
+
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Key Features</h3>
+                    <ul class="modal-features" id="caseStudyFeatures"
+                        style="list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                    </ul>
+
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Technology Stack</h3>
+                    <div class="modal-tech" id="caseStudyTech"></div>
+
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Results & Impact</h3>
+                    <div class="modal-results" id="caseStudyResults"
+                        style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary btn-large scroll-link" id="modalContactBtn">
+                        Start Similar Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-container">
+                            <img src="picture/logo.png" alt="TZENIX Logo" class="footer-logo-img" loading="lazy"
+                                width="40" height="40">
+                            <h2 class="footer-logo-text">TZENIX</h2>
+                        </div>
+                    </div>
+                    <p class="footer-description">Building the future of digital experiences, one line of code at a
+                        time.</p>
+                    <div class="footer-social" aria-label="TZENIX social links">
+                        <a class="social-link" href="https://www.instagram.com/tzenix.tech/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social-link" href="https://www.linkedin.com/in/tzenix-tech-9976b73b2/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">E-commerce Management</a></li>
+                            <li><a href="#services">Mobile Apps</a></li>
+                            <li><a href="#services">Wordpress Dev</a></li>
+                            <li><a href="#services">UI/UX Design</a></li>
+                            <li><a href="#services">Website Modification</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#home">About Us</a></li>
+                            <li><a href="https://www.instagram.com/reels/DWbYANWDX7O/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/tzenix-tech-9976b73b2/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#services">Documentation</a></li>
+                            <li><a href="#portfolio">Case Studies</a></li>
+                            <li><a href="#process">Whitepapers</a></li>
+                            <li><a href="#contact">API Reference</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> TZENIX. All rights reserved. | <a href="#contact">Privacy Policy</a> |
+                    <a href="#contact">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"
+        integrity="sha512-RmCE+nEdKZ45TpbCJgvYvfEDz3XaiGmTTJl6GfyITW3fouks4lNTOkoMXWJ9WA6aQO+3FV8cjA6fvTosOgbCrg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
